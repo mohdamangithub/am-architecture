@@ -123,7 +123,7 @@ export default function AboutPage() {
               </p>
               
               <p>
-                Over the years, we've had the privilege of working on a wide range of projects, from intimate residential spaces to large-scale public buildings. Each project, regardless of size or scope, receives the same level of attention and dedication from our team.
+                {`Over the years, we've had the privilege of working on a wide range of projects, from intimate residential spaces to large-scale public buildings. Each project, regardless of size or scope, receives the same level of attention and dedication from our team.`}
               </p>
             </motion.div>
             
@@ -265,7 +265,7 @@ export default function AboutPage() {
               viewport={{ once: true }}
               className="p-6 border border-[var(--muted-foreground)] rounded-lg"
             >
-              <h3 className="text-xl font-bold mb-2">Architectural Digest's Firm of the Year</h3>
+              <h3 className="text-xl font-bold mb-2">{`Architectural Digest's Firm of the Year`}</h3>
               <p className="text-[var(--primary)] mb-4">2021</p>
               <p className="text-[var(--secondary)]">Honored for our portfolio of residential projects that blend modern aesthetics with functional living spaces.</p>
             </motion.div>

@@ -43,7 +43,7 @@ export default function ContactPage() {
       setIsSubmitted(true);
       setFormState(initialFormState);
     } catch (err) {
-      setError('There was an error submitting your form. Please try again.');
+      setError(`There was an error submitting your form. Please try again. ${err}`);
     } finally {
       setIsSubmitting(false);
     }
@@ -71,7 +71,7 @@ export default function ContactPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
                 <h3 className="text-2xl font-bold mb-4">Thank You!</h3>
-                <p className="text-[var(--secondary)] mb-6">Your message has been sent successfully. We'll get back to you as soon as possible.</p>
+                <p className="text-[var(--secondary)] mb-6">{`Your message has been sent successfully. We'll get back to you as soon as possible.`}</p>
                 <button 
                   onClick={() => setIsSubmitted(false)}
                   className="bg-[var(--primary)] text-white py-2 px-6 rounded-full hover:bg-opacity-90 transition-all"
