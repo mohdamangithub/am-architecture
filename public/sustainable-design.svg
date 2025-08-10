@@ -1,0 +1,149 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#263238"/>
+  
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="300" fill="#37474F"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="300" width="800" height="300" fill="#455A64"/>
+  
+  <!-- Sustainable Building -->
+  <g>
+    <!-- Main Structure -->
+    <rect x="200" y="150" width="400" height="300" fill="#ECEFF1" stroke="#B0BEC5" stroke-width="2"/>
+    
+    <!-- Green Roof -->
+    <rect x="200" y="150" width="400" height="30" fill="#388E3C"/>
+    <circle cx="220" cy="165" r="5" fill="#81C784"/>
+    <circle cx="240" cy="165" r="5" fill="#81C784"/>
+    <circle cx="260" cy="165" r="5" fill="#81C784"/>
+    <circle cx="280" cy="165" r="5" fill="#81C784"/>
+    <circle cx="300" cy="165" r="5" fill="#81C784"/>
+    <circle cx="320" cy="165" r="5" fill="#81C784"/>
+    <circle cx="340" cy="165" r="5" fill="#81C784"/>
+    <circle cx="360" cy="165" r="5" fill="#81C784"/>
+    <circle cx="380" cy="165" r="5" fill="#81C784"/>
+    <circle cx="400" cy="165" r="5" fill="#81C784"/>
+    <circle cx="420" cy="165" r="5" fill="#81C784"/>
+    <circle cx="440" cy="165" r="5" fill="#81C784"/>
+    <circle cx="460" cy="165" r="5" fill="#81C784"/>
+    <circle cx="480" cy="165" r="5" fill="#81C784"/>
+    <circle cx="500" cy="165" r="5" fill="#81C784"/>
+    <circle cx="520" cy="165" r="5" fill="#81C784"/>
+    <circle cx="540" cy="165" r="5" fill="#81C784"/>
+    <circle cx="560" cy="165" r="5" fill="#81C784"/>
+    <circle cx="580" cy="165" r="5" fill="#81C784"/>
+    
+    <!-- Solar Panels -->
+    <g transform="translate(550, 180) rotate(30)">
+      <rect x="0" y="0" width="100" height="60" fill="#1A237E" stroke="#0D47A1" stroke-width="1"/>
+      <line x1="0" y1="20" x2="100" y2="20" stroke="#0D47A1" stroke-width="1"/>
+      <line x1="0" y1="40" x2="100" y2="40" stroke="#0D47A1" stroke-width="1"/>
+      <line x1="25" y1="0" x2="25" y2="60" stroke="#0D47A1" stroke-width="1"/>
+      <line x1="50" y1="0" x2="50" y2="60" stroke="#0D47A1" stroke-width="1"/>
+      <line x1="75" y1="0" x2="75" y2="60" stroke="#0D47A1" stroke-width="1"/>
+    </g>
+    
+    <!-- Windows -->
+    <rect x="250" y="200" width="60" height="80" fill="#82B1FF" opacity="0.7" stroke="#2196F3" stroke-width="1"/>
+    <rect x="350" y="200" width="60" height="80" fill="#82B1FF" opacity="0.7" stroke="#2196F3" stroke-width="1"/>
+    <rect x="450" y="200" width="60" height="80" fill="#82B1FF" opacity="0.7" stroke="#2196F3" stroke-width="1"/>
+    
+    <rect x="250" y="320" width="60" height="80" fill="#82B1FF" opacity="0.7" stroke="#2196F3" stroke-width="1"/>
+    <rect x="350" y="320" width="60" height="80" fill="#82B1FF" opacity="0.7" stroke="#2196F3" stroke-width="1"/>
+    <rect x="450" y="320" width="60" height="80" fill="#82B1FF" opacity="0.7" stroke="#2196F3" stroke-width="1"/>
+    
+    <!-- Door -->
+    <rect x="350" y="400" width="60" height="50" fill="#8D6E63" stroke="#5D4037" stroke-width="1"/>
+    <circle cx="395" cy="425" r="3" fill="#FFC107"/>
+  </g>
+  
+  <!-- Sustainability Elements -->
+  <g>
+    <!-- Wind Turbine -->
+    <rect x="100" y="250" width="10" height="150" fill="#BDBDBD"/>
+    <circle cx="105" cy="250" r="5" fill="#BDBDBD"/>
+    <g transform="translate(105, 250)">
+      <line x1="0" y1="0" x2="40" y2="-15" stroke="#EEEEEE" stroke-width="3"/>
+      <line x1="0" y1="0" x2="-40" y2="-15" stroke="#EEEEEE" stroke-width="3"/>
+      <line x1="0" y1="0" x2="0" y2="-40" stroke="#EEEEEE" stroke-width="3"/>
+    </g>
+    
+    <!-- Rainwater Collection -->
+    <rect x="650" y="250" width="50" height="80" fill="#0288D1" stroke="#01579B" stroke-width="1" rx="5"/>
+    <path d="M650 250 L 700 250 L 675 230 Z" fill="#B3E5FC"/>
+    <line x1="675" y1="200" x2="675" y2="230" stroke="#B3E5FC" stroke-width="2" stroke-dasharray="5 3"/>
+    
+    <!-- Electric Car Charging -->
+    <rect x="150" y="400" width="30" height="50" fill="#9E9E9E"/>
+    <rect x="160" y="380" width="10" height="20" fill="#4CAF50"/>
+    <line x1="165" y1="380" x2="165" y2="360" stroke="#9E9E9E" stroke-width="2"/>
+    <circle cx="165" cy="355" r="5" fill="#4CAF50"/>
+    
+    <!-- Recycling Bins -->
+    <rect x="650" y="400" width="20" height="30" fill="#4CAF50" rx="2"/>
+    <rect x="675" y="400" width="20" height="30" fill="#2196F3" rx="2"/>
+    <rect x="700" y="400" width="20" height="30" fill="#FFC107" rx="2"/>
+  </g>
+  
+  <!-- Trees and Landscaping -->
+  <g>
+    <rect x="50" y="350" width="10" height="50" fill="#5D4037"/>
+    <circle cx="55" cy="320" r="30" fill="#388E3C"/>
+    
+    <rect x="750" y="350" width="10" height="50" fill="#5D4037"/>
+    <circle cx="755" cy="320" r="30" fill="#388E3C"/>
+    
+    <!-- Garden -->
+    <rect x="200" y="450" width="400" height="20" fill="#795548"/>
+    <g>
+      <rect x="220" y="430" width="5" height="20" fill="#8D6E63"/>
+      <circle cx="222.5" cy="420" r="10" fill="#81C784"/>
+      
+      <rect x="260" y="430" width="5" height="20" fill="#8D6E63"/>
+      <circle cx="262.5" cy="420" r="10" fill="#81C784"/>
+      
+      <rect x="300" y="430" width="5" height="20" fill="#8D6E63"/>
+      <circle cx="302.5" cy="420" r="10" fill="#81C784"/>
+      
+      <rect x="340" y="430" width="5" height="20" fill="#8D6E63"/>
+      <circle cx="342.5" cy="420" r="10" fill="#81C784"/>
+      
+      <rect x="380" y="430" width="5" height="20" fill="#8D6E63"/>
+      <circle cx="382.5" cy="420" r="10" fill="#81C784"/>
+      
+      <rect x="420" y="430" width="5" height="20" fill="#8D6E63"/>
+      <circle cx="422.5" cy="420" r="10" fill="#81C784"/>
+      
+      <rect x="460" y="430" width="5" height="20" fill="#8D6E63"/>
+      <circle cx="462.5" cy="420" r="10" fill="#81C784"/>
+      
+      <rect x="500" y="430" width="5" height="20" fill="#8D6E63"/>
+      <circle cx="502.5" cy="420" r="10" fill="#81C784"/>
+      
+      <rect x="540" y="430" width="5" height="20" fill="#8D6E63"/>
+      <circle cx="542.5" cy="420" r="10" fill="#81C784"/>
+      
+      <rect x="580" y="430" width="5" height="20" fill="#8D6E63"/>
+      <circle cx="582.5" cy="420" r="10" fill="#81C784"/>
+    </g>
+  </g>
+  
+  <!-- Sun -->
+  <circle cx="700" cy="100" r="40" fill="#FFC107"/>
+  <g>
+    <line x1="700" y1="40" x2="700" y2="20" stroke="#FFC107" stroke-width="3"/>
+    <line x1="700" y1="160" x2="700" y2="180" stroke="#FFC107" stroke-width="3"/>
+    <line x1="640" y1="100" x2="620" y2="100" stroke="#FFC107" stroke-width="3"/>
+    <line x1="760" y1="100" x2="780" y2="100" stroke="#FFC107" stroke-width="3"/>
+    <line x1="658" y1="58" x2="644" y2="44" stroke="#FFC107" stroke-width="3"/>
+    <line x1="742" y1="142" x2="756" y2="156" stroke="#FFC107" stroke-width="3"/>
+    <line x1="658" y1="142" x2="644" y2="156" stroke="#FFC107" stroke-width="3"/>
+    <line x1="742" y1="58" x2="756" y2="44" stroke="#FFC107" stroke-width="3"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="400" y="50" font-family="Arial" font-size="24" fill="#FFFFFF" text-anchor="middle">SUSTAINABLE DESIGN</text>
+  <text x="400" y="80" font-family="Arial" font-size="16" fill="#B0BEC5" text-anchor="middle">ENVIRONMENTALLY RESPONSIBLE ARCHITECTURE</text>
+</svg>

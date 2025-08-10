@@ -1,0 +1,81 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#263238"/>
+  
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="300" fill="#37474F"/>
+  
+  <!-- Water -->
+  <rect x="0" y="300" width="800" height="300" fill="#0277BD"/>
+  <g opacity="0.3">
+    <path d="M0 320 Q 50 310 100 320 Q 150 330 200 320 Q 250 310 300 320 Q 350 330 400 320 Q 450 310 500 320 Q 550 330 600 320 Q 650 310 700 320 Q 750 330 800 320 L 800 330 L 0 330 Z" fill="#B3E5FC"/>
+    <path d="M0 350 Q 50 340 100 350 Q 150 360 200 350 Q 250 340 300 350 Q 350 360 400 350 Q 450 340 500 350 Q 550 360 600 350 Q 650 340 700 350 Q 750 360 800 350 L 800 360 L 0 360 Z" fill="#B3E5FC"/>
+    <path d="M0 380 Q 50 370 100 380 Q 150 390 200 380 Q 250 370 300 380 Q 350 390 400 380 Q 450 370 500 380 Q 550 390 600 380 Q 650 370 700 380 Q 750 390 800 380 L 800 390 L 0 390 Z" fill="#B3E5FC"/>
+  </g>
+  
+  <!-- Island -->
+  <ellipse cx="400" cy="350" rx="250" ry="50" fill="#795548"/>
+  
+  <!-- Resort Building -->
+  <g>
+    <!-- Main Building -->
+    <rect x="300" y="150" width="200" height="150" fill="#EEEEEE" stroke="#BDBDBD" stroke-width="2"/>
+    
+    <!-- Roof -->
+    <path d="M280 150 L 400 100 L 520 150" fill="#FF8A65" stroke="#E64A19" stroke-width="2"/>
+    
+    <!-- Windows -->
+    <rect x="320" y="180" width="30" height="40" fill="#82B1FF" opacity="0.7"/>
+    <rect x="370" y="180" width="30" height="40" fill="#82B1FF" opacity="0.7"/>
+    <rect x="420" y="180" width="30" height="40" fill="#82B1FF" opacity="0.7"/>
+    <rect x="470" y="180" width="30" height="40" fill="#82B1FF" opacity="0.7"/>
+    
+    <!-- Door -->
+    <rect x="385" y="250" width="30" height="50" fill="#5D4037"/>
+    <circle cx="410" cy="275" r="2" fill="#FFC107"/>
+    
+    <!-- Balconies -->
+    <rect x="250" y="200" width="50" height="20" fill="#BDBDBD" stroke="#9E9E9E" stroke-width="1"/>
+    <rect x="500" y="200" width="50" height="20" fill="#BDBDBD" stroke="#9E9E9E" stroke-width="1"/>
+    
+    <!-- Supports -->
+    <rect x="260" y="220" width="5" height="80" fill="#9E9E9E"/>
+    <rect x="285" y="220" width="5" height="80" fill="#9E9E9E"/>
+    <rect x="510" y="220" width="5" height="80" fill="#9E9E9E"/>
+    <rect x="535" y="220" width="5" height="80" fill="#9E9E9E"/>
+  </g>
+  
+  <!-- Palm Trees -->
+  <g>
+    <!-- Tree 1 -->
+    <rect x="200" y="250" width="10" height="50" fill="#795548"/>
+    <path d="M205 250 L 185 230 L 205 240 L 175 220 L 205 235 L 180 210 L 205 230 L 190 200 L 205 225 L 220 200 L 205 225 L 230 210 L 205 230 L 235 220 L 205 240 L 225 230 L 205 250 Z" fill="#2E7D32"/>
+    
+    <!-- Tree 2 -->
+    <rect x="590" y="250" width="10" height="50" fill="#795548"/>
+    <path d="M595 250 L 575 230 L 595 240 L 565 220 L 595 235 L 570 210 L 595 230 L 580 200 L 595 225 L 610 200 L 595 225 L 620 210 L 595 230 L 625 220 L 595 240 L 615 230 L 595 250 Z" fill="#2E7D32"/>
+  </g>
+  
+  <!-- Beach -->
+  <path d="M250 350 Q 400 330 550 350 L 550 370 Q 400 350 250 370 Z" fill="#FFF176"/>
+  
+  <!-- Beach Chairs -->
+  <rect x="350" y="345" width="30" height="10" fill="#EF5350" transform="rotate(-10 350 345)"/>
+  <rect x="350" y="345" width="5" height="20" fill="#BDBDBD" transform="rotate(-10 350 345)"/>
+  
+  <rect x="420" y="345" width="30" height="10" fill="#42A5F5" transform="rotate(10 420 345)"/>
+  <rect x="445" y="348" width="5" height="20" fill="#BDBDBD" transform="rotate(10 445 348)"/>
+  
+  <!-- Umbrella -->
+  <rect x="385" y="345" width="5" height="30" fill="#9E9E9E"/>
+  <path d="M385 345 Q 400 330 415 345" fill="#FF8A65" stroke="#E64A19" stroke-width="1"/>
+  
+  <!-- Boat -->
+  <path d="M650 320 L 700 320 L 690 340 L 660 340 Z" fill="#FFFFFF" stroke="#9E9E9E" stroke-width="1"/>
+  <rect x="670" y="300" width="2" height="20" fill="#9E9E9E"/>
+  <path d="M672 300 L 672 315 L 685 310 Z" fill="#FFFFFF" stroke="#9E9E9E" stroke-width="1"/>
+  
+  <!-- Text -->
+  <text x="400" y="50" font-family="Arial" font-size="24" fill="#FFFFFF" text-anchor="middle">ISLAND RESORT</text>
+  <text x="400" y="80" font-family="Arial" font-size="16" fill="#B0BEC5" text-anchor="middle">LUXURY HOSPITALITY PROJECT</text>
+</svg>

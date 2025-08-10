@@ -1,0 +1,95 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#263238"/>
+  
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="300" fill="#37474F"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="300" width="800" height="300" fill="#455A64"/>
+  
+  <!-- Museum Building -->
+  <g>
+    <!-- Main Structure - Modern Design -->
+    <path d="M200 150 L 600 150 L 650 300 L 150 300 Z" fill="#ECEFF1" stroke="#B0BEC5" stroke-width="2"/>
+    
+    <!-- Glass Dome -->
+    <ellipse cx="400" cy="150" rx="100" ry="50" fill="#82B1FF" opacity="0.7" stroke="#2196F3" stroke-width="2"/>
+    
+    <!-- Entrance -->
+    <rect x="375" y="250" width="50" height="50" fill="#5D4037"/>
+    <line x1="400" y1="250" x2="400" y2="300" stroke="#9E9E9E" stroke-width="1"/>
+    
+    <!-- Steps -->
+    <rect x="350" y="300" width="100" height="5" fill="#B0BEC5"/>
+    <rect x="360" y="305" width="80" height="5" fill="#B0BEC5"/>
+    <rect x="370" y="310" width="60" height="5" fill="#B0BEC5"/>
+    
+    <!-- Architectural Details -->
+    <line x1="200" y1="200" x2="600" y2="200" stroke="#B0BEC5" stroke-width="1"/>
+    <line x1="200" y1="250" x2="600" y2="250" stroke="#B0BEC5" stroke-width="1"/>
+    
+    <!-- Windows -->
+    <rect x="225" y="175" width="25" height="50" fill="#82B1FF" opacity="0.7"/>
+    <rect x="275" y="175" width="25" height="50" fill="#82B1FF" opacity="0.7"/>
+    <rect x="325" y="175" width="25" height="50" fill="#82B1FF" opacity="0.7"/>
+    <rect x="450" y="175" width="25" height="50" fill="#82B1FF" opacity="0.7"/>
+    <rect x="500" y="175" width="25" height="50" fill="#82B1FF" opacity="0.7"/>
+    <rect x="550" y="175" width="25" height="50" fill="#82B1FF" opacity="0.7"/>
+  </g>
+  
+  <!-- Sculptures Outside -->
+  <g>
+    <!-- Abstract Sculpture 1 -->
+    <path d="M200 350 C 220 320 240 380 260 350" stroke="#FFC107" stroke-width="5" fill="none"/>
+    
+    <!-- Abstract Sculpture 2 -->
+    <path d="M550 350 L 570 320 L 590 350 L 610 320" stroke="#E91E63" stroke-width="5" fill="none"/>
+    
+    <!-- Modern Art Installation -->
+    <rect x="300" y="350" width="10" height="50" fill="#9E9E9E"/>
+    <rect x="350" y="350" width="10" height="50" fill="#9E9E9E"/>
+    <rect x="400" y="350" width="10" height="50" fill="#9E9E9E"/>
+    <rect x="450" y="350" width="10" height="50" fill="#9E9E9E"/>
+    <rect x="500" y="350" width="10" height="50" fill="#9E9E9E"/>
+    <rect x="300" y="340" width="210" height="10" fill="#9E9E9E"/>
+  </g>
+  
+  <!-- Landscaping -->
+  <g>
+    <!-- Trees -->
+    <rect x="150" y="350" width="10" height="50" fill="#5D4037"/>
+    <circle cx="155" cy="320" r="30" fill="#388E3C"/>
+    
+    <rect x="650" y="350" width="10" height="50" fill="#5D4037"/>
+    <circle cx="655" cy="320" r="30" fill="#388E3C"/>
+    
+    <!-- Water Feature -->
+    <ellipse cx="400" cy="400" rx="100" ry="30" fill="#0288D1"/>
+    <ellipse cx="400" cy="400" rx="90" ry="25" fill="#03A9F4"/>
+    <path d="M380 390 Q 400 380 420 390 Q 400 400 380 390" fill="#B3E5FC" opacity="0.5"/>
+  </g>
+  
+  <!-- People Viewing Art -->
+  <g>
+    <!-- Person 1 -->
+    <circle cx="300" cy="450" r="10" fill="#FFCC80"/>
+    <rect x="295" y="460" width="10" height="20" fill="#1976D2"/>
+    <line x1="295" y1="465" x2="285" y2="475" stroke="#1976D2" stroke-width="2"/>
+    <line x1="305" y1="465" x2="315" y2="475" stroke="#1976D2" stroke-width="2"/>
+    <line x1="300" y1="480" x2="295" y2="495" stroke="#1976D2" stroke-width="2"/>
+    <line x1="300" y1="480" x2="305" y2="495" stroke="#1976D2" stroke-width="2"/>
+    
+    <!-- Person 2 -->
+    <circle cx="500" cy="450" r="10" fill="#FFCC80"/>
+    <rect x="495" y="460" width="10" height="20" fill="#D32F2F"/>
+    <line x1="495" y1="465" x2="485" y2="475" stroke="#D32F2F" stroke-width="2"/>
+    <line x1="505" y1="465" x2="515" y2="475" stroke="#D32F2F" stroke-width="2"/>
+    <line x1="500" y1="480" x2="495" y2="495" stroke="#D32F2F" stroke-width="2"/>
+    <line x1="500" y1="480" x2="505" y2="495" stroke="#D32F2F" stroke-width="2"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="400" y="50" font-family="Arial" font-size="24" fill="#FFFFFF" text-anchor="middle">MODERN ART MUSEUM</text>
+  <text x="400" y="80" font-family="Arial" font-size="16" fill="#B0BEC5" text-anchor="middle">CULTURAL ARCHITECTURE PROJECT</text>
+</svg>

@@ -1,0 +1,53 @@
+<svg width="400" height="500" viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="500" fill="#E0E0E0"/>
+  
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="500" fill="#263238"/>
+  <rect x="0" y="350" width="400" height="150" fill="#37474F"/>
+  
+  <!-- Head -->
+  <circle cx="200" cy="150" r="80" fill="#FFCC80"/>
+  
+  <!-- Hair -->
+  <path d="M130 120 Q 200 30 270 120 Q 250 180 200 190 Q 150 180 130 120 Z" fill="#8D6E63"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="170" cy="130" rx="10" ry="5" fill="#333333"/>
+  <ellipse cx="230" cy="130" rx="10" ry="5" fill="#333333"/>
+  
+  <!-- Eyebrows -->
+  <path d="M160 120 Q 170 115 180 120" stroke="#8D6E63" stroke-width="2"/>
+  <path d="M220 120 Q 230 115 240 120" stroke="#8D6E63" stroke-width="2"/>
+  
+  <!-- Nose -->
+  <path d="M200 130 L 195 145 L 205 145 Z" fill="#FFCC80" stroke="#E8A468" stroke-width="1"/>
+  
+  <!-- Mouth -->
+  <path d="M180 160 Q 200 170 220 160" stroke="#333333" stroke-width="2"/>
+  
+  <!-- Neck -->
+  <rect x="185" y="190" width="30" height="40" fill="#FFCC80"/>
+  
+  <!-- Body/Dress -->
+  <path d="M150 230 L 250 230 L 280 400 L 120 400 Z" fill="#7E57C2"/>
+  <path d="M150 230 L 250 230 L 230 280 L 170 280 Z" fill="#9575CD"/>
+  
+  <!-- Arms -->
+  <path d="M150 230 L 120 300 L 130 310 L 160 250 Z" fill="#9575CD"/>
+  <path d="M250 230 L 280 300 L 270 310 L 240 250 Z" fill="#9575CD"/>
+  
+  <!-- Hands -->
+  <circle cx="120" cy="310" r="15" fill="#FFCC80"/>
+  <circle cx="280" cy="310" r="15" fill="#FFCC80"/>
+  
+  <!-- Necklace -->
+  <path d="M190 230 Q 200 240 210 230" stroke="#FFC107" stroke-width="2"/>
+  <circle cx="200" cy="238" r="3" fill="#FFC107"/>
+  
+  <!-- Text Area -->
+  <rect x="50" y="420" width="300" height="60" fill="#37474F"/>
+  
+  <!-- Text -->
+  <text x="200" y="440" font-family="Arial" font-size="18" fill="#FFFFFF" text-anchor="middle">SOPHIA REYNOLDS</text>
+  <text x="200" y="465" font-family="Arial" font-size="14" fill="#B0BEC5" text-anchor="middle">INTERIOR DESIGN DIRECTOR</text>
+</svg>

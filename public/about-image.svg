@@ -1,0 +1,27 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#2A2A2A"/>
+  
+  <!-- Building Silhouette -->
+  <rect x="100" y="150" width="600" height="400" fill="#333333"/>
+  
+  <!-- Windows -->
+  <rect x="150" y="200" width="80" height="100" fill="#444444"/>
+  <rect x="270" y="200" width="80" height="100" fill="#444444"/>
+  <rect x="390" y="200" width="80" height="100" fill="#444444"/>
+  <rect x="510" y="200" width="80" height="100" fill="#444444"/>
+  
+  <rect x="150" y="350" width="80" height="100" fill="#444444"/>
+  <rect x="270" y="350" width="80" height="100" fill="#444444"/>
+  <rect x="390" y="350" width="80" height="100" fill="#444444"/>
+  <rect x="510" y="350" width="80" height="100" fill="#444444"/>
+  
+  <!-- Door -->
+  <rect x="330" y="450" width="80" height="100" fill="#555555"/>
+  
+  <!-- Roof -->
+  <polygon points="50,150 400,50 750,150" fill="#222222"/>
+  
+  <!-- Text -->
+  <text x="400" y="300" font-family="Arial" font-size="24" fill="#AAAAAA" text-anchor="middle">AM ARCHITECTURE</text>
+  <text x="400" y="330" font-family="Arial" font-size="16" fill="#888888" text-anchor="middle">SINCE 2010</text>
+</svg>

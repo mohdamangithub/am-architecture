@@ -1,0 +1,81 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#263238"/>
+  
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="300" fill="#37474F"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="300" width="800" height="300" fill="#455A64"/>
+  
+  <!-- Building Structure - Community Center -->
+  <g>
+    <!-- Main Building -->
+    <rect x="150" y="150" width="500" height="250" fill="#78909C" stroke="#CFD8DC" stroke-width="2"/>
+    
+    <!-- Roof -->
+    <path d="M100 150 L 400 50 L 700 150" fill="#546E7A" stroke="#CFD8DC" stroke-width="2"/>
+    
+    <!-- Front Columns -->
+    <rect x="200" y="250" width="20" height="150" fill="#B0BEC5"/>
+    <rect x="300" y="250" width="20" height="150" fill="#B0BEC5"/>
+    <rect x="400" y="250" width="20" height="150" fill="#B0BEC5"/>
+    <rect x="500" y="250" width="20" height="150" fill="#B0BEC5"/>
+    <rect x="580" y="250" width="20" height="150" fill="#B0BEC5"/>
+    
+    <!-- Steps -->
+    <rect x="150" y="400" width="500" height="10" fill="#B0BEC5"/>
+    <rect x="175" y="410" width="450" height="10" fill="#B0BEC5"/>
+    <rect x="200" y="420" width="400" height="10" fill="#B0BEC5"/>
+    
+    <!-- Windows -->
+    <rect x="220" y="180" width="60" height="40" fill="#82B1FF" opacity="0.7"/>
+    <rect x="320" y="180" width="60" height="40" fill="#82B1FF" opacity="0.7"/>
+    <rect x="420" y="180" width="60" height="40" fill="#82B1FF" opacity="0.7"/>
+    <rect x="520" y="180" width="60" height="40" fill="#82B1FF" opacity="0.7"/>
+    
+    <!-- Door -->
+    <rect x="350" y="300" width="100" height="100" fill="#5D4037"/>
+    <circle cx="430" cy="350" r="5" fill="#FFC107"/>
+  </g>
+  
+  <!-- Landscaping -->
+  <g>
+    <!-- Trees -->
+    <rect x="100" y="350" width="10" height="50" fill="#5D4037"/>
+    <circle cx="105" cy="320" r="30" fill="#388E3C"/>
+    
+    <rect x="700" y="350" width="10" height="50" fill="#5D4037"/>
+    <circle cx="705" cy="320" r="30" fill="#388E3C"/>
+    
+    <!-- Bushes -->
+    <ellipse cx="250" cy="430" rx="30" ry="20" fill="#2E7D32"/>
+    <ellipse cx="550" cy="430" rx="30" ry="20" fill="#2E7D32"/>
+    
+    <!-- Path -->
+    <path d="M400 430 L 400 550 L 500 550 L 300 550" fill="none" stroke="#9E9E9E" stroke-width="10"/>
+  </g>
+  
+  <!-- People -->
+  <g>
+    <!-- Person 1 -->
+    <circle cx="300" cy="480" r="10" fill="#FFCC80"/>
+    <rect x="295" y="490" width="10" height="20" fill="#1976D2"/>
+    <line x1="295" y1="495" x2="285" y2="505" stroke="#1976D2" stroke-width="2"/>
+    <line x1="305" y1="495" x2="315" y2="505" stroke="#1976D2" stroke-width="2"/>
+    <line x1="300" y1="510" x2="295" y2="525" stroke="#1976D2" stroke-width="2"/>
+    <line x1="300" y1="510" x2="305" y2="525" stroke="#1976D2" stroke-width="2"/>
+    
+    <!-- Person 2 -->
+    <circle cx="500" cy="480" r="10" fill="#FFCC80"/>
+    <rect x="495" y="490" width="10" height="20" fill="#D32F2F"/>
+    <line x1="495" y1="495" x2="485" y2="505" stroke="#D32F2F" stroke-width="2"/>
+    <line x1="505" y1="495" x2="515" y2="505" stroke="#D32F2F" stroke-width="2"/>
+    <line x1="500" y1="510" x2="495" y2="525" stroke="#D32F2F" stroke-width="2"/>
+    <line x1="500" y1="510" x2="505" y2="525" stroke="#D32F2F" stroke-width="2"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="400" y="50" font-family="Arial" font-size="24" fill="#FFFFFF" text-anchor="middle">COMMUNITY CENTER</text>
+  <text x="400" y="80" font-family="Arial" font-size="16" fill="#B0BEC5" text-anchor="middle">PUBLIC ARCHITECTURE PROJECT</text>
+</svg>

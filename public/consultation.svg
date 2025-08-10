@@ -1,0 +1,54 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#F5F5F5"/>
+  
+  <!-- Meeting Table -->
+  <ellipse cx="400" cy="350" rx="250" ry="150" fill="#D7CCC8" stroke="#5D4037" stroke-width="3"/>
+  
+  <!-- Architect -->
+  <circle cx="400" cy="150" r="50" fill="#90CAF9"/>
+  <rect x="375" y="200" width="50" height="100" fill="#1976D2"/>
+  <line x1="375" y1="220" x2="325" y2="270" stroke="#1976D2" stroke-width="10"/>
+  <line x1="425" y1="220" x2="475" y2="270" stroke="#1976D2" stroke-width="10"/>
+  <line x1="400" y1="300" x2="380" y2="350" stroke="#1976D2" stroke-width="10"/>
+  <line x1="400" y1="300" x2="420" y2="350" stroke="#1976D2" stroke-width="10"/>
+  
+  <!-- Client 1 -->
+  <circle cx="250" cy="450" r="40" fill="#FFCC80"/>
+  <rect x="230" y="490" width="40" height="80" fill="#FF9800"/>
+  <line x1="230" y1="510" x2="190" y2="550" stroke="#FF9800" stroke-width="8"/>
+  <line x1="270" y1="510" x2="310" y2="550" stroke="#FF9800" stroke-width="8"/>
+  
+  <!-- Client 2 -->
+  <circle cx="550" cy="450" r="40" fill="#FFCC80"/>
+  <rect x="530" y="490" width="40" height="80" fill="#FF9800"/>
+  <line x1="530" y1="510" x2="490" y2="550" stroke="#FF9800" stroke-width="8"/>
+  <line x1="570" y1="510" x2="610" y2="550" stroke="#FF9800" stroke-width="8"/>
+  
+  <!-- Blueprint on Table -->
+  <rect x="300" y="300" width="200" height="100" fill="#BBDEFB" stroke="#1565C0" stroke-width="2"/>
+  <line x1="300" y1="325" x2="500" y2="325" stroke="#1565C0" stroke-width="1"/>
+  <line x1="300" y1="350" x2="500" y2="350" stroke="#1565C0" stroke-width="1"/>
+  <line x1="300" y1="375" x2="500" y2="375" stroke="#1565C0" stroke-width="1"/>
+  <line x1="325" y1="300" x2="325" y2="400" stroke="#1565C0" stroke-width="1"/>
+  <line x1="350" y1="300" x2="350" y2="400" stroke="#1565C0" stroke-width="1"/>
+  <line x1="375" y1="300" x2="375" y2="400" stroke="#1565C0" stroke-width="1"/>
+  <line x1="400" y1="300" x2="400" y2="400" stroke="#1565C0" stroke-width="1"/>
+  <line x1="425" y1="300" x2="425" y2="400" stroke="#1565C0" stroke-width="1"/>
+  <line x1="450" y1="300" x2="450" y2="400" stroke="#1565C0" stroke-width="1"/>
+  <line x1="475" y1="300" x2="475" y2="400" stroke="#1565C0" stroke-width="1"/>
+  
+  <!-- Speech Bubbles -->
+  <path d="M460 180 L 500 150 L 520 180 L 500 170 Z" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <ellipse cx="520" cy="200" rx="40" ry="30" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  
+  <path d="M310 420 L 270 390 L 250 420 L 270 410 Z" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <ellipse cx="230" cy="440" rx="40" ry="30" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  
+  <!-- Pencils -->
+  <line x1="520" y1="320" x2="550" y2="350" stroke="#FFC107" stroke-width="3"/>
+  <line x1="250" y1="320" x2="280" y2="350" stroke="#4CAF50" stroke-width="3"/>
+  
+  <!-- Text -->
+  <text x="400" y="50" font-family="Arial" font-size="24" fill="#333333" text-anchor="middle">ARCHITECTURAL CONSULTATION</text>
+  <text x="400" y="80" font-family="Arial" font-size="16" fill="#666666" text-anchor="middle">EXPERT GUIDANCE FOR YOUR PROJECT</text>
+</svg>

@@ -1,0 +1,104 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#263238"/>
+  
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="300" fill="#37474F"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="300" width="800" height="300" fill="#455A64"/>
+  
+  <!-- Luxury Retail Building -->
+  <g>
+    <!-- Main Structure - Elegant Retail Design -->
+    <rect x="200" y="100" width="400" height="200" fill="#ECEFF1" stroke="#B0BEC5" stroke-width="2"/>
+    
+    <!-- Glass Facade -->
+    <rect x="220" y="120" width="360" height="160" fill="#82B1FF" opacity="0.5" stroke="#2196F3" stroke-width="1"/>
+    
+    <!-- Entrance -->
+    <rect x="375" y="220" width="50" height="80" fill="#5D4037"/>
+    <line x1="400" y1="220" x2="400" y2="300" stroke="#9E9E9E" stroke-width="1"/>
+    
+    <!-- Luxury Brand Logo (Simplified) -->
+    <circle cx="400" cy="150" r="30" fill="#FFC107" opacity="0.9"/>
+    <text x="400" y="155" font-family="Arial" font-size="12" fill="#212121" text-anchor="middle" font-weight="bold">LUXURY</text>
+    
+    <!-- Decorative Elements -->
+    <rect x="180" y="100" width="20" height="200" fill="#CFD8DC"/>
+    <rect x="600" y="100" width="20" height="200" fill="#CFD8DC"/>
+    <rect x="180" y="80" width="440" height="20" fill="#CFD8DC"/>
+    
+    <!-- Display Windows -->
+    <rect x="240" y="180" width="80" height="100" fill="#82B1FF" opacity="0.7" stroke="#2196F3" stroke-width="1"/>
+    <rect x="480" y="180" width="80" height="100" fill="#82B1FF" opacity="0.7" stroke="#2196F3" stroke-width="1"/>
+  </g>
+  
+  <!-- Interior Visible Through Glass -->
+  <g>
+    <!-- Display Stands -->
+    <rect x="260" y="220" width="40" height="20" fill="#9E9E9E"/>
+    <rect x="500" y="220" width="40" height="20" fill="#9E9E9E"/>
+    
+    <!-- Luxury Products (Simplified) -->
+    <rect x="270" y="210" width="20" height="10" fill="#FFC107"/>
+    <rect x="510" y="210" width="20" height="10" fill="#FFC107"/>
+    
+    <!-- Interior Lighting -->
+    <circle cx="280" cy="150" r="5" fill="#FFEB3B" opacity="0.8"/>
+    <circle cx="340" cy="150" r="5" fill="#FFEB3B" opacity="0.8"/>
+    <circle cx="400" cy="200" r="5" fill="#FFEB3B" opacity="0.8"/>
+    <circle cx="460" cy="150" r="5" fill="#FFEB3B" opacity="0.8"/>
+    <circle cx="520" cy="150" r="5" fill="#FFEB3B" opacity="0.8"/>
+  </g>
+  
+  <!-- Landscaping -->
+  <g>
+    <!-- Decorative Planters -->
+    <rect x="150" y="300" width="30" height="40" fill="#795548"/>
+    <path d="M150 300 Q 165 280 180 300" fill="#4CAF50"/>
+    
+    <rect x="620" y="300" width="30" height="40" fill="#795548"/>
+    <path d="M620 300 Q 635 280 650 300" fill="#4CAF50"/>
+    
+    <!-- Red Carpet -->
+    <rect x="375" y="300" width="50" height="100" fill="#C62828"/>
+  </g>
+  
+  <!-- People Shopping -->
+  <g>
+    <!-- Person 1 - With Shopping Bag -->
+    <circle cx="350" cy="450" r="10" fill="#FFCC80"/>
+    <rect x="345" y="460" width="10" height="20" fill="#1976D2"/>
+    <line x1="345" y1="465" x2="335" y2="475" stroke="#1976D2" stroke-width="2"/>
+    <line x1="355" y1="465" x2="365" y2="475" stroke="#1976D2" stroke-width="2"/>
+    <line x1="350" y1="480" x2="345" y2="495" stroke="#1976D2" stroke-width="2"/>
+    <line x1="350" y1="480" x2="355" y2="495" stroke="#1976D2" stroke-width="2"/>
+    <rect x="365" y="465" width="15" height="20" fill="#E1BEE7"/>
+    
+    <!-- Person 2 - Looking at Display -->
+    <circle cx="450" cy="450" r="10" fill="#FFCC80"/>
+    <rect x="445" y="460" width="10" height="20" fill="#D32F2F"/>
+    <line x1="445" y1="465" x2="435" y2="475" stroke="#D32F2F" stroke-width="2"/>
+    <line x1="455" y1="465" x2="465" y2="475" stroke="#D32F2F" stroke-width="2"/>
+    <line x1="450" y1="480" x2="445" y2="495" stroke="#D32F2F" stroke-width="2"/>
+    <line x1="450" y1="480" x2="455" y2="495" stroke="#D32F2F" stroke-width="2"/>
+  </g>
+  
+  <!-- Luxury Cars Parked -->
+  <g>
+    <!-- Car 1 -->
+    <rect x="200" y="500" width="60" height="20" rx="5" fill="#212121"/>
+    <circle cx="210" cy="520" r="5" fill="#9E9E9E"/>
+    <circle cx="250" cy="520" r="5" fill="#9E9E9E"/>
+    
+    <!-- Car 2 -->
+    <rect x="540" y="500" width="60" height="20" rx="5" fill="#C62828"/>
+    <circle cx="550" cy="520" r="5" fill="#9E9E9E"/>
+    <circle cx="590" cy="520" r="5" fill="#9E9E9E"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="400" y="50" font-family="Arial" font-size="24" fill="#FFFFFF" text-anchor="middle">LUXURY RETAIL SPACE</text>
+  <text x="400" y="80" font-family="Arial" font-size="16" fill="#B0BEC5" text-anchor="middle">PREMIUM SHOPPING EXPERIENCE</text>
+</svg>

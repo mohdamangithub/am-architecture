@@ -1,0 +1,97 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#F5F5F5"/>
+  
+  <!-- Blueprint Background -->
+  <rect x="50" y="50" width="700" height="500" fill="#E3F2FD" stroke="#2196F3" stroke-width="2"/>
+  
+  <!-- Grid Lines -->
+  <g stroke="#BBDEFB" stroke-width="1">
+    <!-- Vertical Lines -->
+    <line x1="100" y1="50" x2="100" y2="550"/>
+    <line x1="150" y1="50" x2="150" y2="550"/>
+    <line x1="200" y1="50" x2="200" y2="550"/>
+    <line x1="250" y1="50" x2="250" y2="550"/>
+    <line x1="300" y1="50" x2="300" y2="550"/>
+    <line x1="350" y1="50" x2="350" y2="550"/>
+    <line x1="400" y1="50" x2="400" y2="550"/>
+    <line x1="450" y1="50" x2="450" y2="550"/>
+    <line x1="500" y1="50" x2="500" y2="550"/>
+    <line x1="550" y1="50" x2="550" y2="550"/>
+    <line x1="600" y1="50" x2="600" y2="550"/>
+    <line x1="650" y1="50" x2="650" y2="550"/>
+    <line x1="700" y1="50" x2="700" y2="550"/>
+    
+    <!-- Horizontal Lines -->
+    <line x1="50" y1="100" x2="750" y2="100"/>
+    <line x1="50" y1="150" x2="750" y2="150"/>
+    <line x1="50" y1="200" x2="750" y2="200"/>
+    <line x1="50" y1="250" x2="750" y2="250"/>
+    <line x1="50" y1="300" x2="750" y2="300"/>
+    <line x1="50" y1="350" x2="750" y2="350"/>
+    <line x1="50" y1="400" x2="750" y2="400"/>
+    <line x1="50" y1="450" x2="750" y2="450"/>
+    <line x1="50" y1="500" x2="750" y2="500"/>
+  </g>
+  
+  <!-- Building Structure -->
+  <g stroke="#1565C0" stroke-width="3">
+    <!-- Foundation -->
+    <line x1="150" y1="450" x2="650" y2="450"/>
+    
+    <!-- Columns -->
+    <line x1="150" y1="150" x2="150" y2="450"/>
+    <line x1="250" y1="150" x2="250" y2="450"/>
+    <line x1="350" y1="150" x2="350" y2="450"/>
+    <line x1="450" y1="150" x2="450" y2="450"/>
+    <line x1="550" y1="150" x2="550" y2="450"/>
+    <line x1="650" y1="150" x2="650" y2="450"/>
+    
+    <!-- Beams -->
+    <line x1="150" y1="150" x2="650" y2="150"/>
+    <line x1="150" y1="250" x2="650" y2="250"/>
+    <line x1="150" y1="350" x2="650" y2="350"/>
+  </g>
+  
+  <!-- Dimensions -->
+  <g stroke="#FF5722" stroke-width="1" stroke-dasharray="5,5">
+    <line x1="150" y1="500" x2="650" y2="500"/>
+    <line x1="150" y1="490" x2="150" y2="510"/>
+    <line x1="650" y1="490" x2="650" y2="510"/>
+  </g>
+  <text x="400" y="520" font-family="Arial" font-size="12" fill="#FF5722" text-anchor="middle">500 units</text>
+  
+  <!-- Structural Details -->
+  <circle cx="150" cy="150" r="8" fill="#FFC107"/>
+  <circle cx="250" cy="150" r="8" fill="#FFC107"/>
+  <circle cx="350" cy="150" r="8" fill="#FFC107"/>
+  <circle cx="450" cy="150" r="8" fill="#FFC107"/>
+  <circle cx="550" cy="150" r="8" fill="#FFC107"/>
+  <circle cx="650" cy="150" r="8" fill="#FFC107"/>
+  
+  <circle cx="150" cy="250" r="8" fill="#FFC107"/>
+  <circle cx="250" cy="250" r="8" fill="#FFC107"/>
+  <circle cx="350" cy="250" r="8" fill="#FFC107"/>
+  <circle cx="450" cy="250" r="8" fill="#FFC107"/>
+  <circle cx="550" cy="250" r="8" fill="#FFC107"/>
+  <circle cx="650" cy="250" r="8" fill="#FFC107"/>
+  
+  <circle cx="150" cy="350" r="8" fill="#FFC107"/>
+  <circle cx="250" cy="350" r="8" fill="#FFC107"/>
+  <circle cx="350" cy="350" r="8" fill="#FFC107"/>
+  <circle cx="450" cy="350" r="8" fill="#FFC107"/>
+  <circle cx="550" cy="350" r="8" fill="#FFC107"/>
+  <circle cx="650" cy="350" r="8" fill="#FFC107"/>
+  
+  <!-- Compass -->
+  <circle cx="700" cy="100" r="30" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <line x1="700" y1="70" x2="700" y2="130" stroke="#333333" stroke-width="1"/>
+  <line x1="670" y1="100" x2="730" y2="100" stroke="#333333" stroke-width="1"/>
+  <text x="700" y="85" font-family="Arial" font-size="12" fill="#333333" text-anchor="middle">N</text>
+  <text x="700" y="120" font-family="Arial" font-size="12" fill="#333333" text-anchor="middle">S</text>
+  <text x="715" y="100" font-family="Arial" font-size="12" fill="#333333" text-anchor="middle">E</text>
+  <text x="685" y="100" font-family="Arial" font-size="12" fill="#333333" text-anchor="middle">W</text>
+  
+  <!-- Text -->
+  <text x="400" y="30" font-family="Arial" font-size="24" fill="#1565C0" text-anchor="middle">STRUCTURAL DESIGN</text>
+  <text x="400" y="580" font-family="Arial" font-size="16" fill="#666666" text-anchor="middle">ENSURING STABILITY AND SAFETY</text>
+</svg>

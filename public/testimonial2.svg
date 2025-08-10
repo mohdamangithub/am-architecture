@@ -1,0 +1,38 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="100" fill="#263238"/>
+  
+  <!-- Head -->
+  <circle cx="100" cy="85" r="40" fill="#FFCC80"/>
+  
+  <!-- Hair -->
+  <path d="M65 70 Q 100 20 135 70 Q 125 100 100 105 Q 75 100 65 70 Z" fill="#8D6E63"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="85" cy="75" rx="5" ry="2.5" fill="#333333"/>
+  <ellipse cx="115" cy="75" rx="5" ry="2.5" fill="#333333"/>
+  
+  <!-- Eyebrows -->
+  <path d="M80 70 Q 85 67 90 70" stroke="#8D6E63" stroke-width="1"/>
+  <path d="M110 70 Q 115 67 120 70" stroke="#8D6E63" stroke-width="1"/>
+  
+  <!-- Nose -->
+  <path d="M100 75 L 97 82 L 103 82 Z" fill="#FFCC80" stroke="#E8A468" stroke-width="0.5"/>
+  
+  <!-- Mouth -->
+  <path d="M90 90 Q 100 95 110 90" stroke="#333333" stroke-width="1"/>
+  
+  <!-- Neck -->
+  <rect x="92.5" y="105" width="15" height="20" fill="#FFCC80"/>
+  
+  <!-- Body/Dress -->
+  <path d="M75 125 L 125 125 L 140 180 L 60 180 Z" fill="#7E57C2"/>
+  <path d="M75 125 L 125 125 L 115 145 L 85 145 Z" fill="#9575CD"/>
+  
+  <!-- Necklace -->
+  <path d="M95 125 Q 100 130 105 125" stroke="#FFC107" stroke-width="1"/>
+  <circle cx="100" cy="129" r="1.5" fill="#FFC107"/>
+  
+  <!-- Text -->
+  <text x="100" y="195" font-family="Arial" font-size="10" fill="#FFFFFF" text-anchor="middle">EMILY JOHNSON</text>
+</svg>

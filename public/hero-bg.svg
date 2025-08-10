@@ -1,0 +1,14 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#1A1A1A"/>
+  <path d="M0 540H1920" stroke="#333333" stroke-width="2"/>
+  <path d="M960 0V1080" stroke="#333333" stroke-width="2"/>
+  <rect x="480" y="270" width="960" height="540" stroke="#444444" stroke-width="4"/>
+  <rect x="240" y="135" width="1440" height="810" stroke="#444444" stroke-width="2"/>
+  <path d="M0 0L1920 1080" stroke="#333333" stroke-width="1"/>
+  <path d="M1920 0L0 1080" stroke="#333333" stroke-width="1"/>
+  <circle cx="960" cy="540" r="200" stroke="#555555" stroke-width="4"/>
+  <circle cx="960" cy="540" r="100" stroke="#666666" stroke-width="6"/>
+  <path d="M760 540H1160" stroke="#777777" stroke-width="8"/>
+  <path d="M960 340V740" stroke="#777777" stroke-width="8"/>
+  <text x="960" y="540" font-family="Arial" font-size="24" fill="#AAAAAA" text-anchor="middle" dominant-baseline="middle">AM ARCHITECTURE</text>
+</svg>

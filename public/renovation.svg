@@ -1,0 +1,82 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#263238"/>
+  
+  <!-- Building Structure - Before and After -->
+  <g>
+    <!-- Before (Left Side) -->
+    <rect x="50" y="150" width="300" height="300" fill="#78909C" stroke="#455A64" stroke-width="2"/>
+    
+    <!-- Old Windows -->
+    <rect x="100" y="200" width="50" height="70" fill="#B0BEC5" stroke="#455A64" stroke-width="1"/>
+    <rect x="250" y="200" width="50" height="70" fill="#B0BEC5" stroke="#455A64" stroke-width="1"/>
+    <rect x="100" y="300" width="50" height="70" fill="#B0BEC5" stroke="#455A64" stroke-width="1"/>
+    <rect x="250" y="300" width="50" height="70" fill="#B0BEC5" stroke="#455A64" stroke-width="1"/>
+    
+    <!-- Old Door -->
+    <rect x="175" y="350" width="50" height="100" fill="#5D4037" stroke="#3E2723" stroke-width="1"/>
+    
+    <!-- Old Roof -->
+    <path d="M50 150 L 200 50 L 350 150" fill="#546E7A" stroke="#455A64" stroke-width="2"/>
+    
+    <!-- Cracks and Wear -->
+    <path d="M100 250 L 120 270 L 110 290 L 130 310" stroke="#455A64" stroke-width="1"/>
+    <path d="M250 220 L 270 240 L 260 260" stroke="#455A64" stroke-width="1"/>
+    <path d="M200 150 L 220 180 L 210 200" stroke="#455A64" stroke-width="1"/>
+  </g>
+  
+  <!-- Divider -->
+  <line x1="400" y1="100" x2="400" y2="500" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="10 5"/>
+  
+  <g>
+    <!-- After (Right Side) -->
+    <rect x="450" y="150" width="300" height="300" fill="#ECEFF1" stroke="#B0BEC5" stroke-width="2"/>
+    
+    <!-- New Windows -->
+    <rect x="500" y="200" width="50" height="70" fill="#82B1FF" opacity="0.7" stroke="#2196F3" stroke-width="1"/>
+    <rect x="650" y="200" width="50" height="70" fill="#82B1FF" opacity="0.7" stroke="#2196F3" stroke-width="1"/>
+    <rect x="500" y="300" width="50" height="70" fill="#82B1FF" opacity="0.7" stroke="#2196F3" stroke-width="1"/>
+    <rect x="650" y="300" width="50" height="70" fill="#82B1FF" opacity="0.7" stroke="#2196F3" stroke-width="1"/>
+    
+    <!-- New Door -->
+    <rect x="575" y="350" width="50" height="100" fill="#8D6E63" stroke="#5D4037" stroke-width="1"/>
+    <circle cx="590" cy="400" r="3" fill="#FFC107"/>
+    
+    <!-- New Roof -->
+    <path d="M450 150 L 600 50 L 750 150" fill="#78909C" stroke="#546E7A" stroke-width="2"/>
+    
+    <!-- Solar Panels -->
+    <rect x="520" y="80" width="40" height="20" fill="#1A237E" stroke="#0D47A1" stroke-width="1"/>
+    <rect x="570" y="80" width="40" height="20" fill="#1A237E" stroke="#0D47A1" stroke-width="1"/>
+    <rect x="620" y="80" width="40" height="20" fill="#1A237E" stroke="#0D47A1" stroke-width="1"/>
+    
+    <!-- Modern Landscaping -->
+    <rect x="500" y="450" width="5" height="30" fill="#5D4037"/>
+    <circle cx="502.5" cy="440" r="10" fill="#388E3C"/>
+    
+    <rect x="700" y="450" width="5" height="30" fill="#5D4037"/>
+    <circle cx="702.5" cy="440" r="10" fill="#388E3C"/>
+    
+    <path d="M550 450 C 580 460 620 460 650 450" fill="#81C784" stroke="#388E3C" stroke-width="1"/>
+  </g>
+  
+  <!-- Renovation Tools -->
+  <g>
+    <!-- Paint Roller -->
+    <rect x="350" y="200" width="30" height="5" fill="#BDBDBD" transform="rotate(45 350 200)"/>
+    <rect x="370" y="180" width="15" height="10" fill="#29B6F6" transform="rotate(45 370 180)"/>
+    
+    <!-- Hammer -->
+    <rect x="350" y="250" width="25" height="8" fill="#5D4037" transform="rotate(-30 350 250)"/>
+    <rect x="370" y="240" width="15" height="12" fill="#78909C" transform="rotate(-30 370 240)"/>
+    
+    <!-- Measuring Tape -->
+    <rect x="350" y="300" width="30" height="10" fill="#FFC107" rx="2"/>
+    <line x1="380" y1="305" x2="400" y2="305" stroke="#FFC107" stroke-width="1"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="200" y="50" font-family="Arial" font-size="20" fill="#FFFFFF" text-anchor="middle">BEFORE</text>
+  <text x="600" y="50" font-family="Arial" font-size="20" fill="#FFFFFF" text-anchor="middle">AFTER</text>
+  <text x="400" y="550" font-family="Arial" font-size="24" fill="#FFFFFF" text-anchor="middle">RENOVATION SERVICES</text>
+</svg>
