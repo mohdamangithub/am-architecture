@@ -42,7 +42,7 @@ const AboutSection = () => {
             </p>
             
             <p className="text-[var(--secondary)] mb-8">
-              Our team of experienced architects and designers is dedicated to creating spaces that are not only aesthetically pleasing but also functional, sustainable, and tailored to our clients' needs. We believe that great architecture has the power to transform lives and communities.
+              {`Our team of experienced architects and designers is dedicated to creating spaces that are not only aesthetically pleasing but also functional, sustainable, and tailored to our clients' needs. We believe that great architecture has the power to transform lives and communities.`}
             </p>
             
             <div className="grid grid-cols-2 gap-6 mb-8">

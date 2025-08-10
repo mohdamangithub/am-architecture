@@ -90,7 +90,7 @@ const Testimonials = () => {
                     </div>
                     
                     <p className="text-lg md:text-xl italic mb-6 text-[var(--foreground)]">
-                      "{testimonial.quote}"
+                      {testimonial.quote}
                     </p>
                     
                     <h4 className="text-lg font-bold">{testimonial.name}</h4>
